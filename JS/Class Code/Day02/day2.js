@@ -72,26 +72,64 @@
 // Data Structures 
 
 // -->  Array
-const fruits = ['apple',' cheeku ', 'aadu', 'santra'];
+// const fruits = ['apple',' cheeku ', 'aadu', 'santra'];
 
-console.log(fruits[0]);
+// console.log(fruits[0]);
 
-fruits.push("Nikhil")
-
-
-console.log(fruits.length);
+// fruits.push("Nikhil")
 
 
-console.log(fruits.includes("Nikhil"))
-const firsele = fruits.shift();
-console.log(firsele);
-console.log(fruits)
+// console.log(fruits.length);
 
 
-fruits.unshift('ARR','SSD');
-console.log(fruits)
+// console.log(fruits.includes("Nikhil"))
+// const firsele = fruits.shift();
+// console.log(firsele);
+// console.log(fruits)
 
-console.log(fruits.pop());
+
+// fruits.unshift('ARR','SSD');
+// console.log(fruits)
+
+// console.log(fruits.pop());
 
 
-console.log(fruits.indexOf("ARR"))
+// console.log(fruits.indexOf("ARR"))
+
+
+// HIGHER ORDER FUNCTIONS
+
+
+// function meraPyaraFucntion(udharkaFunction){
+
+//     return udharkaFunction()+40;
+
+// }
+
+
+// function cartoon(){
+//     return 10;
+// }
+
+
+// console.log(meraPyaraFucntion(cartoon));
+
+
+// const fruits = ['apple',' cheeku ', 'aadu', 'santra'];
+
+
+// function printKrdo(ele){
+//     console.log(ele);
+// }
+// fruits.forEach(printKrdo)
+
+
+// fruits.forEach(ele => console.log(ele));
+
+
+// const nums =[1,2,3,4,1,5];
+
+
+// const result = nums.map((e)=> e*2);
+
+// console.log(result);
