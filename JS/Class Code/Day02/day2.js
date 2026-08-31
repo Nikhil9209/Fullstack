@@ -60,10 +60,38 @@
 //     return age>=18;
 // }
 
+// Arrow Functions
+// var isAllowedToVote =  (age) => age>=18;
 
-var isAllowedToVote =  (age) => age>=18;
-
-const isUserAllowedToOpenBankAccount =  (age,minBalance) => age>=18 && minBalance>=5000;
+// const isUserAllowedToOpenBankAccount =  (age,minBalance) => age>=18 && minBalance>=5000;
 
 
 
+
+
+// Data Structures 
+
+// -->  Array
+const fruits = ['apple',' cheeku ', 'aadu', 'santra'];
+
+console.log(fruits[0]);
+
+fruits.push("Nikhil")
+
+
+console.log(fruits.length);
+
+
+console.log(fruits.includes("Nikhil"))
+const firsele = fruits.shift();
+console.log(firsele);
+console.log(fruits)
+
+
+fruits.unshift('ARR','SSD');
+console.log(fruits)
+
+console.log(fruits.pop());
+
+
+console.log(fruits.indexOf("ARR"))
