@@ -51,11 +51,19 @@
 // }
 
 
-age = 45;
+// age = 45;
 
-console.log('Value  of age is ', age, 'Is allowed', isAlllowedToVote(age));
-var age   =  24;
+// console.log('Value  of age is ', age, 'Is allowed', isAlllowedToVote(age));
+// var age   =  24;
 
-var isAllowedToVote = function (age){
-    return age>=18;
-}
+// var isAllowedToVote = function (age){
+//     return age>=18;
+// }
+
+
+var isAllowedToVote =  (age) => age>=18;
+
+const isUserAllowedToOpenBankAccount =  (age,minBalance) => age>=18 && minBalance>=5000;
+
+
+
