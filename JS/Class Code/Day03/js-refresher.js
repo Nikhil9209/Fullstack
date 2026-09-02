@@ -39,44 +39,44 @@
 // Topic: Data types
 // Number - interger ,float
 
-let myNum = 45.64
+// let myNum = 45.64
 
 // infinity , -infinity   and not a number (  Nan)
 
 
-console.log(1/0);
-console.log(9/"not a number ");
-console.log(NaN ** 0);
+// console.log(1/0);
+// console.log(9/"not a number ");
+// console.log(NaN ** 0);
 
-let bigBalance = 9n;
+// let bigBalance = 9n;
 
-console.log(typeof(bigBalance));
+// console.log(typeof(bigBalance));
 
 
 /// String
 
-let single= ' I am double';
+// let single= ' I am double';
 
-let double = " I am double ";
+// let double = " I am double ";
 
-let backTick = ` String interpolation`;
+// let backTick = ` String interpolation`;
 
 
-console.log(` this is use of backtick ${backTick}`);
+// console.log(` this is use of backtick ${backTick}`);
 
 // Boolean 
 
-let passed = true;
-let piyushisSingle = false;
+// let passed = true;
+// let piyushisSingle = false;
 
 
 
 // Null( Empty, Unknown)
 
-let partner = null;
-console.log(partner);
-let ekVar ;
-console.log(ekVar);
+// let partner = null;
+// console.log(partner);
+// let ekVar ;
+// console.log(ekVar);
 
 
 //  Symbol
@@ -92,13 +92,39 @@ console.log(ekVar);
 
 
 
-const person ={
-    name:"ak",
-    age :2,
-}
+// const person ={
+//     name:"ak",
+//     age :2,
+// }
 
 
-console.log(typeof(person))
+// console.log(typeof(person))
 
-console.log(typeof console.log);
-console.log(typeof(null))
+// console.log(typeof console.log);
+// console.log(typeof(null))
+
+
+// let choice  = false;
+// let strChoice = String(choice);
+
+
+// let myAge = Number("Twenty five ")
+// console.log(myAge);
+
+
+
+// Boolean Conversion
+
+
+// console.log(Boolean(0));
+// console.log(Boolean(1)); 
+
+
+// console.log(Boolean(""));
+
+
+// console.log(Boolean(undefined))
+
+// console.log(Boolean(false))
+
+// console.log(Boolean(NaN))
