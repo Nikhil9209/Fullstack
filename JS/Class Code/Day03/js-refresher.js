@@ -96,3 +96,9 @@ const person ={
     name:"ak",
     age :2,
 }
+
+
+console.log(typeof(person))
+
+console.log(typeof console.log);
+console.log(typeof(null))
