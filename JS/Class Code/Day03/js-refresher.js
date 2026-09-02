@@ -128,3 +128,68 @@
 // console.log(Boolean(false))
 
 // console.log(Boolean(NaN))
+
+
+//  Arithmetic Operators
+
+// console.log(10/2);
+
+// console.log(10%2);
+// console.log(10**2);
+
+// console.log(10+2);
+// console.log(10-2);
+// console.log(10*2);
+
+
+// string conacatenation 
+
+
+// console.log("nik"+ 5);
+// console.log("4"+4+"5")
+
+
+// assignment operators
+
+
+let myLife = "Chill";
+
+
+//mody in place 
+let aura  = 10;
+aura+=10;
+
+
+// this will be for all other operator l
+
+
+// increment and decrement 
+
+
+// let count = 0;
+
+// count++;
+
+
+// console.log(count);
+
+
+
+
+// let counti= 1;
+// counti--;
+
+// console.log(counti)
+
+
+
+// Comparison operators
+
+// >  < >= <= == === != !==
+
+
+// strict ,loose
+
+console.log(2==='2');
+
+console.log(null == undefined)
