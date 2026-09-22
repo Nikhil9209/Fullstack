@@ -1,0 +1,2 @@
+
+// const trainCopy  =  wholeTrain.slice();
