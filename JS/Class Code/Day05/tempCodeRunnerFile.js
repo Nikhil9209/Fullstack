@@ -1,2 +1,5 @@
+console.log(brewPotion("healing herbs ",3 ));
 
-// const trainCopy  =  wholeTrain.slice();
+function brewPotion(ingredient,dose){
+    return `${ingredient} and ${dose}`;
+}
