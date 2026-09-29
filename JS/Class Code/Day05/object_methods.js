@@ -67,3 +67,8 @@ console.log(secureArtificats.catelogId);
 for(const[key,value] of Object.entries(secureArtificats)){
     console.log(`${key}:${value}`);
 }
+
+
+const desc = Object.getOwnPropertyDescriptor(secureArtificats,"catelogId");
+
+console.log(desc);
