@@ -81,3 +81,16 @@ filmset.prepareProps();
 
 
 // detached Mehods
+
+
+const actor = {
+    name : "Ranveer",
+    bow(){
+        return `${this.name} take a bow `
+    }
+}
+
+
+const detachedBow = actor.bow
+
+console.log(detachedBow())
